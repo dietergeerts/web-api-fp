@@ -1,7 +1,7 @@
 {
-  "name": "@web-api-fp/dom",
+  "name": "@web-api-fp/core",
   "version": "0.0.0",
-  "description": "DOM Web API for usage in a Functional Programming style",
+  "description": "Core Web API for usage in a Functional Programming style",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,15 +14,12 @@
     "web",
     "web-api",
     "fp",
-    "dom"
+    "core"
   ],
   "author": "Dieter Geerts <dieter@dworks.be> (https://dietergeerts.github.io/)",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/dietergeerts/web-api-fp/issues"
   },
-  "homepage": "https://github.com/dietergeerts/web-api-fp/blob/master/packages/dom/README.md",
-  "dependencies": {
-    "@web-api-fp/core": "0.0.0"
-  }
+  "homepage": "https://github.com/dietergeerts/web-api-fp/blob/master/packages/core/README.md"
 }

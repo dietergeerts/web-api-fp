@@ -11,6 +11,9 @@ Looking through [npm](https://www.npmjs.com/), I could not find many packages
 that are doing this, and the ones I found did not include enough, or where not
 that great FP-wise. I hope this package can become a great FP Web API package.
 
+Not only is the code designed FP wise, it's also designed to give great
+auto-complete by your favorite editors like WebStorm through JSDocs.
+
 This repository holds several packages, which can all be installed separately.
 The packages are split according to the many [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
 
