@@ -1,0 +1,27 @@
+{
+  "name": "web-api-fp",
+  "version": "0.0.0",
+  "description": "Web APIs for usage in a Functional Programming style",
+  "main": "TODO: Point to a main file, maybe the package that includes all packages?",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dietergeerts/web-api-fp.git"
+  },
+  "keywords": [
+    "web",
+    "webp-api",
+    "fp"
+  ],
+  "author": "Dieter Geerts <dieter@dworks.be> (https://dietergeerts.github.io/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dietergeerts/web-api-fp/issues"
+  },
+  "homepage": "https://github.com/dietergeerts/web-api-fp#readme",
+  "devDependencies": {
+    "lerna": "^3.4.0"
+  }
+}
