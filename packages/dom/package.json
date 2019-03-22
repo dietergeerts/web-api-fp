@@ -1,9 +1,8 @@
 {
-  "name": "web-api-fp",
+  "name": "@web-api-fp/dom",
   "version": "0.0.0",
-  "description": "Web APIs for usage in a Functional Programming style",
-  "private": true,
-  "main": "TODO: Point to a main file, maybe the package that includes all packages?",
+  "description": "DOM Web API for usage in a Functional Programming style",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,16 +12,14 @@
   },
   "keywords": [
     "web",
-    "webp-api",
-    "fp"
+    "web-api",
+    "fp",
+    "dom"
   ],
   "author": "Dieter Geerts <dieter@dworks.be> (https://dietergeerts.github.io/)",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/dietergeerts/web-api-fp/issues"
   },
-  "homepage": "https://github.com/dietergeerts/web-api-fp#readme",
-  "devDependencies": {
-    "lerna": "^3.4.0"
-  }
+  "homepage": "https://github.com/dietergeerts/web-api-fp/blob/master/packages/dome/README.md"
 }
