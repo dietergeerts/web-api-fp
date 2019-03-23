@@ -1,0 +1,3 @@
+/**
+ * @typedef {integer} long
+ */

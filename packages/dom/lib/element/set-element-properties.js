@@ -1,3 +1,5 @@
+import { setNodeProperties } from '../node/set-node-properties';
+
 /**
  * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/Node#Properties}
  *
@@ -7,8 +9,6 @@
  * @throws {SyntaxError} by innerHTML, outerHTML
  * @throws {NoModificationAllowedError} by innerHTML, outerHTML
  */
-export const setElementProperties = (properties) => (element) => {
-  Object.entries(properties).forEach(([property, value]) => {
-    element[property] = value;
-  });
+export const setElementProperties = properties => element => {
+  setNodeProperties(properties)(element);
 };

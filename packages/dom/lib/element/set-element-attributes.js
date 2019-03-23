@@ -6,7 +6,7 @@
  * @returns {function(Element): void}
  * @throws {InvalidCharacterError}
  */
-export const setAttributes = attributes => element => {
+export const setElementAttributes = attributes => element => {
   Object.entries(attributes).forEach(([attribute, value]) => {
     element.setAttribute(attribute, value);
   });

@@ -2,7 +2,10 @@
   "name": "@web-api-fp/core",
   "version": "0.0.0",
   "description": "Core Web API for usage in a Functional Programming style",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

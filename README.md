@@ -13,6 +13,7 @@ that great FP-wise. I hope this package can become a great FP Web API package.
 
 Not only is the code designed FP wise, it's also designed to give great
 auto-complete by your favorite editors like WebStorm through JSDocs.
+TODO: Add example that shows this (with GIF?)
 
 This repository holds several packages, which can all be installed separately.
 The packages are split according to the many [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)

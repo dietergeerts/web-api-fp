@@ -6,7 +6,7 @@
  * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/Element#Properties}
  *
  * @typedef {Object} IElementProperties
- * @property {string} [className]
+ * @property {strings} [className]
  * @property {string} [id]
  * @property {string} [innerHTML]
  * @property {string} [outerHTML]
