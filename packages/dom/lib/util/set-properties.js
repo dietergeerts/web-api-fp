@@ -7,12 +7,6 @@ import _overArgs from 'lodash/fp/overArgs';
 import _pick from 'lodash/fp/pick';
 
 /**
- * Set multiple properties at once.
- *
- * Properties added to `_subs`, will not be set directly,
- * their own properties will be set instead.
- *
- * @internal
  * @curried
  * @callback SetProperties
  * @param {P} properties
