@@ -1,12 +1,17 @@
-import { setProperties } from '@web-api-fp/core/lib/util/set-properties';
+import { setProperties } from '../util/set-properties';
+
+/**
+ * @type {SetProperties<Node,NodeProperties>}
+ */
+export const setNodeProperties = setProperties({
+  properties: [
+    'textContent',
+  ],
+});
 
 /**
  * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/Node#Properties}
  *
- * @function
- * @param {NodeProperties} properties
- * @returns {function(Node): void}
+ * @typedef {Object} NodeProperties
+ * @property {?string} [textContent]
  */
-export const setNodeProperties = properties => node => {
-  setProperties(properties, node);
-};

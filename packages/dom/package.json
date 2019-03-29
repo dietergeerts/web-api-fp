@@ -26,6 +26,9 @@
   },
   "homepage": "https://github.com/dietergeerts/web-api-fp/blob/master/packages/dom/README.md",
   "dependencies": {
-    "@web-api-fp/core": "0.0.0"
+    "lodash": "4.17.11"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.123"
   }
 }
